@@ -32,9 +32,14 @@ This repository contains my accepted solutions of programming problems from diff
 
 ***
 
+*   [574 	Sum It Up][5]
+    > Variant of subset sum solution. Generate all subsets and take subsets that sum to a given target.
+
+***
+
 [0]: /uva/uva_00167_the_sultan_successor.cpp
 [1]: /uva/uva_00624_CD.cpp
 [2]: /uva/uva_00729_the_hamming_distance.cpp
 [3]: /uva/uva_10452_Marcus.cpp
 [4]: /uva/uva_00524_prime_ring_problem.cpp
-
+[5]: /uva/uva_574_sum_it_up.cpp
