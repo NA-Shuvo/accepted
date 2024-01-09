@@ -48,7 +48,13 @@ This repository contains my accepted solutions of programming problems from diff
     > **B. For any four consecutive integers, the sum of first and fourth integer is equal to the sum of second and third integers.**  
     > Of course we can use **Subset Sum** technique to find a set of integers summed up to $S$. But for larger value of $n$ the solution will get a TLE.  
 
-    > Be careful about integer size (memory) if you are using C/C++.  
+    > Be careful about integer size (memory) if you are using C/C++.
+
+***
+
+*   [Trailing Zeros][7]
+    > A basic computational problem. Let's define $tz(n)$ as the number of trailing zeros of $n!$. Then, $tz(n) = \sum_{i = 1}^{5^{i}\le n}\left\lfloor \frac{n}{5^{i}} \right\rfloor$  
+
 
 
 [0]: /uva/uva_00167_the_sultan_successor.cpp
@@ -58,3 +64,4 @@ This repository contains my accepted solutions of programming problems from diff
 [4]: /uva/uva_00524_prime_ring_problem.cpp
 [5]: /uva/uva_574_sum_it_up.cpp
 [6]: /cses/cses_Two_Sets.py
+[7]: /cses/cses_trailing_zeros.py
