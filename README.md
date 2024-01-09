@@ -37,9 +37,24 @@ This repository contains my accepted solutions of programming problems from diff
 
 ***
 
+## CSES
+*   [Two Sets][6]
+    > Two Sets is a fine problem. The task is to create two sets with numbers in the range $[1\ n]$ of equal sum if possible, otherwise, print "NO". Checking the possibility is straight forward. If $S$, the sum of all numbers in range $[1\ n]$ is even, then the partition is possible otherwise NOT. The condition can be further simplified for $n$. if $n$ is in the form $n = 4k$ or $n = 4k - 1$ for any $k>0$ then the partition is possible.  
+    > Also the problem asks to print any valid partition. There are number of ways to do so. We can use the following two facts. My solution uses fact A.  
+
+
+    > **A. Any number can be expressed as the sum of 2's power.**  
+
+    > **B. For any four consecutive integers, the sum of first and fourth integer is equal to the sum of second and third integers.**  
+    > Of course we can use **Subset Sum** technique to find a set of integers summed up to $S$. But for larger value of $n$ the solution will get a TLE.  
+
+    > Be careful about integer size (memory) if you are using C/C++.  
+
+
 [0]: /uva/uva_00167_the_sultan_successor.cpp
 [1]: /uva/uva_00624_CD.cpp
 [2]: /uva/uva_00729_the_hamming_distance.cpp
 [3]: /uva/uva_10452_Marcus.cpp
 [4]: /uva/uva_00524_prime_ring_problem.cpp
 [5]: /uva/uva_574_sum_it_up.cpp
+[6]: /cses/cses_Two_Sets.py
