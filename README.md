@@ -53,7 +53,8 @@ This repository contains my accepted solutions of programming problems from diff
 ***
 
 *   [Trailing Zeros][7]
-    > A basic computational problem. Let's define $tz(n)$ as the number of trailing zeros of $n!$. Then, $tz(n) = \sum_{i = 1}^{5^{i}\le n}\left\lfloor \frac{n}{5^{i}} \right\rfloor$  
+    > A basic computational problem. Let's define $tz(n)$ as the number of trailing zeros of $n!$. Then, $tz(n) = \sum_{i = 1}^{5^{i}\le n}\left\lfloor \frac{n}{5^{i}} \right\rfloor$
+  
 
 
 
